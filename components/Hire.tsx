@@ -22,7 +22,7 @@ const projects = [
 
 
 export default function Hire(){
-    const [active, setActive] = useState(null)
+    const [active, setActive] = useState<{}|null>(null)
 
   return(
     <section className="hire-page">
